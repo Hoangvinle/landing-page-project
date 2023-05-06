@@ -35,3 +35,13 @@ video {
   display: block;
   max-width: 100%;
 }
+/* Start here */
+.header-section-one {border: 3px solid black;
+  background-color: #1F2937;
+  font-size: 24px;
+  color: #F9FAF8;
+  padding: 10px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
