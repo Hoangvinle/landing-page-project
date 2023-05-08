@@ -36,7 +36,7 @@ video {
   max-width: 100%;
 }
 /* Start here */
-.header-section-one {border: 3px solid black;
+.header-section-one {
   background-color: #1F2937;
   font-size: 24px;
   color: #F9FAF8;
@@ -61,4 +61,11 @@ body {
 
 .header-section-one > p { 
   font-weight: bolder;
+}
+
+.header-section-two {
+  display: flex;
+  background-color: #1F2937;
+  padding: 100px 120px;
+  justify-content: space-between;
 }
