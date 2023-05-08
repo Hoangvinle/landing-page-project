@@ -68,7 +68,8 @@ body {
   display: flex;
   background-color: #1F2937;
   padding: 100px 120px;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center
 }
 
 .left-section {
@@ -77,6 +78,7 @@ body {
   align-items: flex-start;
   gap: 15px;
   margin-right: 40px;
+  flex: 1;
 }
 
 .hero-text-main {
@@ -102,7 +104,7 @@ body {
 
 
 .right-section {
-  height: auto;
-  width: 300px;
+  height: 300px;
+  width: 600px;
 }
 
