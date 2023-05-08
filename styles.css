@@ -87,3 +87,13 @@ body {
   font-size: 18px;
   color: #E5E7EB;
 }
+
+.left-section > input {
+  background-color: #3882f6;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #F9FAF8;
+  padding: 10px 30px;
+  border-radius: 8px;
+}
