@@ -63,6 +63,7 @@ body {
   font-weight: bolder;
 }
 
+/* --- */
 .header-section-two {
   display: flex;
   background-color: #1F2937;
@@ -80,4 +81,9 @@ body {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
+}
+
+.hero-text-second {
+  font-size: 18px;
+  color: #E5E7EB;
 }
