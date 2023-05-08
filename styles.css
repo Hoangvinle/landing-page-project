@@ -48,6 +48,7 @@ video {
 .header-section-one > ul {
   display: flex;
   list-style-type: none;
+  gap: 20px;
 }
 
 a {
