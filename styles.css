@@ -35,6 +35,7 @@ video {
   display: block;
   max-width: 100%;
 }
+
 /* Start here */
 .header-section-one {
   background-color: #1F2937;
@@ -63,7 +64,7 @@ body {
   font-weight: bolder;
 }
 
-/* --- */
+/*--------------------------------------------------------------------------------------------*/
 .header-section-two {
   display: flex;
   background-color: #1F2937;
@@ -108,7 +109,7 @@ body {
   width: 600px;
 }
 
-/* --- */
+/*--------------------------------------------------------------------------------------------*/
 .information {
   display: flex;
   flex-direction: column;
@@ -156,9 +157,10 @@ body {
   text-align: center;
 }
 
-/*---*/
-.quote {border: 3px solid red;
+/*--------------------------------------------------------------------------------------------*/
+.quote {
   background-color: #E5E7EB;
+  padding: 100px 240px 80px;
 }
 
 .para,
@@ -174,5 +176,56 @@ body {
 
  .sign {
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 30px;
+  text-align: end;
 }
+/*--------------------------------------------------------------------------------------------*/
+.call {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.signUp {
+  font-size:14px;
+  color: #F9FAF8;
+}
+
+.action > input {
+  font-size: 18px;
+  font-weight: bold;
+  color: #F9FAF8;
+  background-color:#3882f6;
+  border: solid #F9FAF8;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.actionBox {
+  padding: 80px 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.action {
+  display: flex;
+  background-color: #3882f6;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 150px;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.footer {
+  color: #F9FAF8;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+
